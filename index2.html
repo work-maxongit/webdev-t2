@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanved | Research Subsystem </title>
+    <style>
+        /* CSS Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        /* Main Container */
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Image Section */
+        figure#profile {
+            text-align: center;
+            margin: 0 0 40px 0;
+            display: block;
+        }
+
+        figure img {
+            width: 300px; 
+            height: auto; 
+            border: 1px solid #ddd; 
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.1); 
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Headings inside Main */
+        h2 {
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+            color: #2c3e50;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        /* List Section Styling */
+        #details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        
+        section.list-column {
+            flex: 1;
+            min-width: 250px;
+            margin-right: 20px;
+            margin-bottom: 20px; 
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+            width: 30%;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sanved Parmarthi</h1>
+        <p>B.Tech Biomedical Engineering | Research Subsystem</p>
+    </header>
+
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#summary">Summary</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        
+        <figure id="profile">
+            <img src="my-photo.jpeg" alt="Sanved Profile Picture">
+            <figcaption>Aspiring Neuroscientist & Problem Solver | MIT Manipal</figcaption>
+        </figure>
+
+        <section id="details">
+            <h2 class="visually-hidden">Personal Details</h2>
+
+            <section class="list-column">
+                <h3>Current Work & Roles</h3>
+                <ul>
+                    <li><strong>Research Intern (NMFL Lab):</strong> Working on nanoparticle application and characterizing SiO2 (Silicon Dioxide).</li>
+                    <li><strong>Class Representative (CR):</strong> Managing class coordination to develop leadership and communication skills.</li>
+                    <li><strong>BMESI Member:</strong> Active in Editorial and Techno-commercial departments.</li>
+                </ul>
+            </section>
+
+            <section class="list-column">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Playing Guitar & Basketball</li>
+                    <li>Self-Education (Deep dives via YouTube/Google)</li>
+                    <li>Podcasts & Journaling</li>
+                    <li>Cycling & Exploring</li>
+                </ul>
+            </section>
+
+            <section class="list-column" style="flex-basis: 100%;">
+                <h3>Academic Interests</h3>
+                <ul>
+                    <li>Neuroscience</li>
+                    <li>Philosophy & Human Psychology</li>
+                    <li>Applied Self-Improvement</li>
+                    <li>Nanotechnology</li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="thought-process">
+            <h2 class="visually-hidden">My Philosophy</h2>
+
+            <article>
+                <h2>My Thinking Process & Organization</h2>
+                <p>
+                    I try out new things whenever I get the opportunity. I love solving problems. It is one of the biggest reasons why I chose engineering. My approach is to organize, optimize and find a way even when the situation seems difficult.
+                </p>
+                <p>
+                    I treat failure as a learning experience and ask myself what should have been done differently. You will learn 8 times before you succeed on the 9th time.
+                </p>
+                <p>
+                    I meditate regularly and treat my own life as an experiment to find what works best. My core philosophy is: <em>"Try it out, you never know what will work best."</em> I am pursuing Biomedical Engineering because my long-term goal is to become a neuroscientist and bridge the gap between biology and technology.
+                </p>
+            </article>
+
+            <article>
+                <h2>Why I Want to Join MBM</h2>
+                <p>
+                    I decided to join Manipal Biomachines (MBM) because the team focuses on identifying real-life problems and finding realistic, applicable solutions on a global scale. This aligns perfectly with what I find fun and engaging: applying bio-related concepts to solve issues.
+                </p>
+            </article>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <table>
+                <tr>
+                    <th>GPA</th>
+                    <td>8.27 / 10.0</td>
+                </tr>
+                <tr>
+                    <th>Soft Skills</th>
+                    <td>Leadership (CR), Communication, Adaptability, Organization</td>
+                </tr>
+                <tr>
+                    <th>Personality Profile</th>
+                    <td>Self-Optimizer, Experimental, Analytical, "Problem-First" Thinker</td>
+                </tr>
+                <tr>
+                    <th>Thinking Style</th>
+                    <td>First Principles & Systematic Optimization</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <h3>Connect with Me</h3>
+        <p>
+            <a href="mailto:parmarthisanved.mitmpl2025@learner.manipal.edu">Email</a> |
+            <a href="https://www.linkedin.com/in/sanved-parmarthi-bb5211375">LinkedIn</a> |
+            <a href="https://www.instagram.com/real_sanved">Instagram</a>
+        </p>
+        <p>&copy; 2025 Sanved. Built for MBM</p>
+    </footer>
+
+</body>
+</html>
